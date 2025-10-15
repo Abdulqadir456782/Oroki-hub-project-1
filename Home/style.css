@@ -78,8 +78,8 @@
 .flex-partners-container{
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
-    padding-left: 100px;
+    padding-top: 20px;
+    padding-left: 140px;
 }
 .nitda{
     width: 200px;
@@ -103,4 +103,13 @@
     border-radius: 25px;
     width: 300px;
     height: 200px;
+}
+.srvcs{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(0, 37, 142);
+    padding-top: 30px;
+    text-align: center;
 }
