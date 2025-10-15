@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
@@ -28,11 +29,15 @@
     
     <el-popover-group>
     <button popovertarget="desktop-menu-product" class="flex items-center gap-x-1 text-sm/6 font-semibold text-white"></button>
-    <div class="hidden lg:flex items-center justify-center gap-x-12" >
-       <a href="#" class="text-sm/6 font-semibold text-black">Programs</a>
-      <a href="#" class="text-sm/6 font-semibold text-black">Impact</a>
-      <a href="#" class="text-sm/6 font-semibold text-black">About</a>
-      <a href="#" class="text-sm/6 font-semibold text-black">Join Us</a>
+    <div class="navitems">
+      <div class="hidden lg:flex items-center justify-center gap-x-12" >
+        <a href="#" class="text-sm/6 font-semibold text-black">Programs</a>
+        <a href="#" class="text-sm/6 font-semibold text-black">Impact</a>
+        <a href="#" class="text-sm/6 font-semibold text-black">About</a>
+      </div>
+      <div class="join">
+        <a href="#" class="text-sm/6 font-semibold text-blacks">Join Us</a>
+      </div>
     </div>
     </button>
     </el-popover-group>
