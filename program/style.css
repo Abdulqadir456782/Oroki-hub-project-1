@@ -19,3 +19,17 @@ font-weight: 500;
 line-height: 52.8px;
 color: rgb(5, 4, 127);
 }
+.ty{
+    font-family: Poppins, sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 23.1px;
+color: rgb(5, 4, 127);
+}
+.pd{
+    font-family: Poppins, sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 52.8px;
+color: rgb(5, 4, 127);
+}
