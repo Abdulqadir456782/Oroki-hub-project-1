@@ -68,3 +68,8 @@ color: rgb(5, 4, 127);
     line-height: 20px;
     color: rgb(122, 122, 122);
 }
+ .footer-link-plus::before {
+            content: "+";
+            margin-right: 0.5rem;
+            font-weight: bold;
+        }
