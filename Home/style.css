@@ -148,3 +148,16 @@
     line-height: 24px;
     color: rgb(122, 122, 122);
 }
+.logon{
+    width: 130px;
+    height: 60px;
+}
+.flex-footer-container{
+    background-color: rgb(5,4,127);
+}
+.flex-logo-container{
+    padding-top: 85px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
+}
